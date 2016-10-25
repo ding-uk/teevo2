@@ -13,6 +13,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2'
 gem 'normalize-rails'
+gem 'rails_autolink', '~> 1.1', '>= 1.1.6'
 
 group :development, :test do
   gem 'byebug', platform: :mri

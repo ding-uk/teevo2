@@ -1,3 +1,27 @@
 // Place all the styles related to the links controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main-wrapper {
+	background-color: #C4C4C4;
+	display: inline-block;
+	width: 75%;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+.title {
+	display: inline-block;
+	padding: 20px;
+	font-size: 2em;
+}
+
+.url {
+	padding: 20px;
+	font-size: 20px;
+}
+
+.links {
+	padding: 20px;
+	font-size: 20px;
+}
