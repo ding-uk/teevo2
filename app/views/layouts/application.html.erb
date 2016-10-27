@@ -18,6 +18,8 @@
         </ul>
       <% else %>
         <ul>
+          <%= link_to image_tag("teevo.png", alt: "logo", class: "teevo"),
+        '/' %>
           <li><%= link_to "Sign up", new_user_registration_path %></li>
           <li><%= link_to "Sign in", new_user_session_path %></li>
         </ul>
@@ -34,9 +36,9 @@
       <% end %>
 
 
-    <div class="container">
-      <%= yield %>
-    </div>
+      <div class="container">
+        <%= yield %>
+      </div>
     </div>
 
   </body>
