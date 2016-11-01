@@ -40,6 +40,9 @@ body {
 	border-bottom: solid 1px white;
 	background: #1A1A1A;
 	box-shadow: 1px 5px 20px 1px;
+	opacity: 0.9;
+	filter: alpha(opacity=50);
+
 }
 
 .nav ul {
@@ -83,6 +86,8 @@ footer {
 	background-color: #1A1A1A;
 	border-top: solid 1px white;
 	box-shadow: 1px 5px 20px 1px;
+	opacity: 0.9;
+	filter: alpha(opacity=50);
 }
 
 footer h3 {
@@ -129,7 +134,7 @@ Yield
 	color: white;
 	font-size: 50px;
 	padding: 0 0 20px 0;
-	font-family: 'Poppins', sans-serif;;
+	font-family: 'Poppins', sans-serif;
 }
 
 #email {

@@ -3,25 +3,61 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .main-wrapper {
-	background-color: #C4C4C4;
+	background-color: #1F1F1F;
 	display: inline-block;
-	width: 75%;
-	border-radius: 25px;
+	width: 90%;
+	border-radius: 5px;
 	padding: 20px;
+	height: 75vh;
+}
+
+.main-wrapper h1 {
+	font-family: 'Poppins', sans-serif;
+	color: blue;
 }
 
 .title {
 	display: inline-block;
 	padding: 20px;
 	font-size: 2em;
+	color: white;
 }
 
 .url {
 	padding: 20px;
-	font-size: 20px;
+	font-size: 2em;
+	color: white;
 }
 
 .links {
 	padding: 20px;
+	font-size: 2em;
+	color: white;
+}
+
+.title2 {
+	padding: 15px;
 	font-size: 20px;
+	color: #B5B5B5;
+	font-family: 'Raleway', sans-serif;
+}
+
+.url2 {
+	padding: 15px;
+	font-size: 20px;
+	color: #B5B5B5;
+	font-family: 'Raleway', sans-serif;
+}
+
+.links2 {
+	padding: 15px;
+	font-size: 20px;
+	color: #B5B5B5;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+table {
+	text-align: center;
+	margin: 0 auto;
 }
