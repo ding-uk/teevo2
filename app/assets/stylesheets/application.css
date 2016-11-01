@@ -68,7 +68,7 @@ body {
 	color: #FF742E;
 	background: #121212;
 	transition-duration: 0.5s;
-    transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 
 .nav ul,
@@ -104,6 +104,63 @@ footer h3 {
 	padding: 10px 0 0 30px;
 }
 
+/*===================================
+Sign up
+===================================*/
+
+.form-box {
+	width: 30%;
+	border-radius: 15px;
+	background-color: #1f1f1f;
+	border: 1px solid white;
+	box-shadow: -5px 5px 20px 0;
+	padding: 10px 0 30px 0;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.sign-up {
+	display: block;
+	padding: 0 20px 0 20px;
+	border-bottom: solid 2px #1F1F1F;
+
+	background: rgba(31,31,31,1);
+	background: -moz-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,31,31,1)), color-stop(100%, rgba(10,10,20,1)));
+	background: -webkit-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: -o-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: -ms-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: linear-gradient(to bottom, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#0a0a14', GradientType=0 );
+}
+
+.form-box h1 {
+	color: #FF742E;
+	font-family: 'Poppins', sans-serif;
+}
+
+.details {
+	background: rgba(11,10,20,1);
+	background: -moz-linear-gradient(top, rgba(11,10,20,1) 0%, rgba(31,31,31,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(11,10,20,1)), color-stop(100%, rgba(31,31,31,1)));
+	background: -webkit-linear-gradient(top, rgba(11,10,20,1) 0%, rgba(31,31,31,1) 100%);
+	background: -o-linear-gradient(top, rgba(11,10,20,1) 0%, rgba(31,31,31,1) 100%);
+	background: -ms-linear-gradient(top, rgba(11,10,20,1) 0%, rgba(31,31,31,1) 100%);
+	background: linear-gradient(to bottom, rgba(11,10,20,1) 0%, rgba(31,31,31,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b0a14', endColorstr='#1f1f1f', GradientType=0 );
+}
+
+.field {
+	padding: 20px;
+	color: #90DCF5;
+}
+
+.box {
+	padding: 10px;
+	border-radius:5px;
+	background-color: #595959;
+	color: white;
+}
 
 /*===================================
 Yield

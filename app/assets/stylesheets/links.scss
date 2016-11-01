@@ -11,6 +11,19 @@
 	height: 75vh;
 }
 
+.main-content {
+	background-color: #878787;
+	display: block;
+	width: 80%;
+	border-radius: 5px;
+	padding: 20px;
+	height: 70vh;
+	margin: 0 auto;
+	opacity: 0.9;
+	filter: alpha(opacity=50);
+
+}
+
 .main-wrapper h1 {
 	font-family: 'Poppins', sans-serif;
 	color: blue;
