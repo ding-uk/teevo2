@@ -137,6 +137,7 @@ Sign up
 .form-box h1 {
 	color: #FF742E;
 	font-family: 'Poppins', sans-serif;
+	text-shadow: -1px 1px 10px #333333;
 }
 
 .details {
@@ -162,54 +163,50 @@ Sign up
 	color: white;
 }
 
+.sign {
+	padding: 15px 20px 15px 20px;
+	border-radius: 50px;
+	color: #8A8A8A;
+	background: rgba(143,45,30,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(143,45,30,1) 0%, rgba(20,3,0,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(143,45,30,1)), color-stop(100%, rgba(20,3,0,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(143,45,30,1) 0%, rgba(20,3,0,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(143,45,30,1) 0%, rgba(20,3,0,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(143,45,30,1) 0%, rgba(20,3,0,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(143,45,30,1) 0%, rgba(20,3,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f2d1e', endColorstr='#140300', GradientType=1 );
+}
+
+.sign:hover {
+	font-weight: bold;
+	color: white;
+	background: rgba(255,79,56,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,79,56,1) 0%, rgba(77,12,1,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,79,56,1)), color-stop(100%, rgba(77,12,1,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,79,56,1) 0%, rgba(77,12,1,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,79,56,1) 0%, rgba(77,12,1,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,79,56,1) 0%, rgba(77,12,1,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(255,79,56,1) 0%, rgba(77,12,1,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4f38', endColorstr='#4d0c01', GradientType=1 );
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+
 /*===================================
-Yield
+Log in
 ===================================*/
 
-/*
-.main {
-	width: 75%;
-	border-radius: 15px;
-	background-color: #1F1F1F;
-	border: 2px solid grey;
-	box-shadow: -5px 5px 20px 0;
-	padding: 10px 0 30px 0;
-	margin: 0 auto;
-}
+.log-in {
+	display: block;
+	padding: 0 20px 0 20px;
+	border-bottom: solid 2px #1F1F1F;
 
-.container {
-	width: 40%;
-	border-radius: 15px;
-	background-color: #1F1F1F;
-	border: 2px solid white;
-	box-shadow: -5px 5px 20px 0;
-	padding: 10px 0 30px 0;
-	margin: 0 auto;
+	background: rgba(31,31,31,1);
+	background: -moz-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,31,31,1)), color-stop(100%, rgba(10,10,20,1)));
+	background: -webkit-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: -o-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: -ms-linear-gradient(top, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	background: linear-gradient(to bottom, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#0a0a14', GradientType=0 );
 }
-
-.signIn {
-	color: white;
-	font-size: 50px;
-	padding: 0 0 20px 0;
-	font-family: 'Poppins', sans-serif;
-}
-
-#email {
-	padding: 20px;
-	color: white;
-}
-
-#password {
-	color: white;
-}
-
-#remember {
-	padding: 20px;
-	color: #0BAFE6;
-}
-
-#log {
-	padding-bottom: 20px;
-}
-
-*/
