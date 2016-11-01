@@ -210,3 +210,17 @@ Log in
 	background: linear-gradient(to bottom, rgba(31,31,31,1) 0%, rgba(10,10,20,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#0a0a14', GradientType=0 );
 }
+
+/*===================================
+Forgot Password
+===================================*/
+
+.actions {
+	padding: 20px;
+}
+
+.form-box h2 {
+	color: #FF742E;
+	font-family: 'Poppins', sans-serif;
+	text-shadow: -1px 1px 10px #333333;
+}
