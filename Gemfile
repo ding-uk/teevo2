@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2'
 gem 'normalize-rails'
 gem 'rails_autolink', '~> 1.1', '>= 1.1.6'
+gem 'acts_as_votable', '~> 0.10.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
